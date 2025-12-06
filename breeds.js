@@ -60,7 +60,7 @@ async function loadBreeds() {
       card.appendChild(temperament);
       card.appendChild(lifeSpan);
 
-      // Add the card to the page
+      // Added the card to the page //
       breedsContainer.appendChild(card);
     });
   } catch (error) {
