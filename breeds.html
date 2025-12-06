@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Explorer - Dog Breeds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Dog Explorer</h1>
+    <nav>
+      <a href="index.html">Random Dogs</a>
+      <a href="breeds.html">Dog Breeds</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Dog Breeds</h2>
+      <p>Browse dog breeds with basic information from TheDogAPI.</p>
+    </section>
+
+    <section id="breeds-container" class="grid-container">
+      <!-- Breed cards will load here -->
+    </section>
+
+    <p id="breeds-error" class="error-message"></p>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://thedogapi.com/" target="_blank">TheDogAPI</a></p>
+  </footer>
+
+  <!-- IMPORTANT: These scripts match your ROOT-folder structure -->
+  <script src="config.js"></script>
+  <script src="breeds.js" defer></script>
+
+</body>
+</html>

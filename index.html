@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Explorer - Random Dogs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!--Header Section-->
+  <header>
+    <h1>Dog Explorer</h1>
+    <nav>
+      <a href="index.html">Random Dogs</a>
+      <a href="breeds.html">Dog Breeds</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Random Dogs</h2>
+      <p>Click the button to load new random dogs from TheDogAPI.</p>
+      <button id="load-dogs-button">Load New Dogs</button>
+    </section>
+
+    <section id="random-dogs-container" class="grid-container">
+      <!-- Dog images will load here -->
+    </section>
+
+    <p id="random-dogs-error" class="error-message"></p>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://thedogapi.com/" target="_blank">TheDogAPI</a></p>
+  </footer>
+
+  <!-- IMPORTANT: These scripts match your ROOT-folder structure -->
+  <script src="config.js"></script>
+  <script src="main.js" defer></script>
+
+</body>
+</html>
