@@ -24,6 +24,7 @@ async function loadBreeds() {
 
     const data = await response.json();
 
+
     // Clear the container before adding breed cards
     breedsContainer.innerHTML = '';
 
@@ -31,7 +32,7 @@ async function loadBreeds() {
     data.forEach((breed) => {
       const card = document.createElement('div');
       card.classList.add('card');
-
+console.log("Fetching random dogs...")
       // Breed name
       const name = document.createElement('p');
       name.classList.add('breed-name');
