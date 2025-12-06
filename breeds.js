@@ -37,7 +37,7 @@ async function loadBreeds() {
       name.classList.add('breed-name');
       name.textContent = breed.name;
 
-      // Breed image (if available)
+      // Breed image 
       if (breed.image && breed.image.url) {
         const img = document.createElement('img');
         img.src = breed.image.url;
