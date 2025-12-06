@@ -52,7 +52,7 @@ async function loadRandomDogs() {
 document.addEventListener('DOMContentLoaded', () => {
   loadRandomDogs();
 });
-//main.js for Random Dog images 
+// for Random Dog images 
 
 // Load new dogs when the button is clicked
 loadDogsButton.addEventListener('click', () => {
