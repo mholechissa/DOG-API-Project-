@@ -33,9 +33,11 @@ async function loadRandomDogs() {
       const card = document.createElement('div');
       card.classList.add('card');
 
+
       const img = document.createElement('img');
       img.src = dog.url;
       img.alt = 'A random dog';
+      
 
       card.appendChild(img);
       randomDogsContainer.appendChild(card);
