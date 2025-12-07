@@ -43,6 +43,7 @@ async function loadRandomDogs() {
       randomDogsContainer.appendChild(card);
     });
 
+
   } catch (error) {
     console.error('Error fetching random dogs:', error);
     randomDogsContainer.innerHTML = '';
@@ -60,3 +61,4 @@ document.addEventListener('DOMContentLoaded', () => {
 loadDogsButton.addEventListener('click', () => {
   loadRandomDogs();
 });
+
