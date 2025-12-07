@@ -11,7 +11,7 @@ const randomDogsError = document.getElementById('random-dogs-error');
 async function loadRandomDogs() {
   // Clear any previous error
   randomDogsError.textContent = '';
-
+// Utility function
   try {
     // Show a loading message
     randomDogsContainer.innerHTML = '<p>Loading dogs...</p>';
@@ -50,7 +50,6 @@ async function loadRandomDogs() {
     randomDogsError.textContent = 'Sorry, something went wrong while loading dogs. Please try again.';
   }
 }
-
 // Load dogs automatically when the page loads
 document.addEventListener('DOMContentLoaded', () => {
   loadRandomDogs();
