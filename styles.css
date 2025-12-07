@@ -62,6 +62,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+/*Retry button styling */
 
 button:hover {
   background-color: #006fd6;
